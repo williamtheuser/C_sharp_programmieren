@@ -1,0 +1,15 @@
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\bin\Debug\net6.0\zahlenfolgen_bis_20.exe
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\bin\Debug\net6.0\zahlenfolgen_bis_20.deps.json
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\bin\Debug\net6.0\zahlenfolgen_bis_20.runtimeconfig.json
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\bin\Debug\net6.0\zahlenfolgen_bis_20.dll
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\bin\Debug\net6.0\zahlenfolgen_bis_20.pdb
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.csproj.AssemblyReference.cache
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.AssemblyInfoInputs.cache
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.AssemblyInfo.cs
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.csproj.CoreCompileInputs.cache
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.dll
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\refint\zahlenfolgen_bis_20.dll
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.pdb
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\zahlenfolgen_bis_20.genruntimeconfig.cache
+C:\Users\willi\OneDrive\Desktop\c_sharp\C_sharp_programmieren\zahlenfolgen_bis_20\obj\Debug\net6.0\ref\zahlenfolgen_bis_20.dll
