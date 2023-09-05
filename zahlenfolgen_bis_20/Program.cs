@@ -39,3 +39,4 @@ Console.WriteLine(string.Join(",", naturalNubers));
 Console.WriteLine(string.Join(",", evenNumbers));
 Console.WriteLine(string.Join(",", squareNumbers));
         
+
