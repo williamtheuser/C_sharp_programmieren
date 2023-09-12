@@ -2,15 +2,15 @@
 
 
 
-bool userToTired = true;
+
 
 
 string a;
 
 
-while (userToTired) {
+while (true) {
      a = Console.ReadLine();
-    if (a is string)
+    if (a.Contains(""))
     {
         break;
     }
@@ -18,5 +18,9 @@ while (userToTired) {
     
     
 }
+
+
+string a1 = a.TrimStart("", )
+
 
 
