@@ -27,11 +27,18 @@ class Program
             string missedChars = "";
             bool game = true;
             while (game)                 // Player 2: Make your guesses
+                
+
             {
+                Console.Clear();
+                HangTheMan(errors);
                 Console.WriteLine(blanks);
+                
                 Console.WriteLine("Enter your guess: ");
                 char guessedChar = ReadOneChar(abc);           // Handle input of one char. 
-                Console.WriteLine("Guessed Letters:" + missedChars);
+                Console.WriteLine(" ");
+                Console.WriteLine("Guessed Letters: " + missedChars);
+                
 
 
                 EvaluateTheSituation(secretWord, guessedChar, ref errors, ref blanks, ref missedChars, ref game);  // Game Logic goes here
@@ -82,12 +89,13 @@ class Program
 
         while (true)
         {
-            string currentStrGuess = Console.ReadKey().ToString();
-            currentchar = Convert.ToChar(currentStrGuess);
+            
+            char currentCharGuess = Console.ReadKey().KeyChar;
+            
 
-            if (abc.Contains(char.ToUpper(currentchar)))
+            if (abc.Contains(char.ToUpper(currentCharGuess)))
             {
-                return currentchar;
+                return currentCharGuess;
             }
 
         }
@@ -98,22 +106,43 @@ class Program
                                        // In here, evaluate the char entered: Is it part of the secret word?
                                        // Calculate and return the game status (Hit or missed? Where? List and number of missed chars?...)
     {
+        char[] blanksList = new char[blanks.Length];
+        
 
-        char[] blanksArray = blanks.ToCharArray();
+        for (int i = 0; i < blanks.Length; i++)
+        {
+            blanksList[i] = blanks[i];
+        }
+
+        
+        
+        
+        //Console.WriteLine(string.Join(",", blanksList));
         if (wordToCheck.Contains(userguess))
         {
             int indexOfguessedChar = wordToCheck.IndexOf(userguess);
-            
-            blanksArray[indexOfguessedChar] = wordToCheck[indexOfguessedChar];
-            if (wordToCheck.Contains("_") == false)
+            string result = "";
+            blanksList[indexOfguessedChar] = wordToCheck[indexOfguessedChar];
+            for (int i = indexOfguessedChar + 1; i < wordToCheck.Length; i++)
             {
-                
-                game = false;
-                Console.WriteLine("You have guessed the word!" + blanksArray);
+                if (wordToCheck[i] == userguess)
+                {
+                    blanksList[i] = wordToCheck[i];
+                }
             }
 
-            blanks = blanksArray.ToString();
-            
+            if (!blanksList.Contains('_'))
+            {
+                game = false;
+                result = new string(blanksList);
+                Console.WriteLine("You have guessed the word: " + result);
+            }
+            else
+            {
+                blanks = new string(blanksList); // Update blanks only if there are still underscores
+            }
+
+
         }
 
         else
@@ -123,7 +152,7 @@ class Program
             if (errors == 6)
             {
                 game = false;
-                Console.WriteLine("You have lost. The word was:" + wordToCheck);
+                Console.WriteLine("You have lost. The word was: " + wordToCheck);
             }
 
             else
